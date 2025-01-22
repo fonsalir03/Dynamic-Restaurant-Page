@@ -1,4 +1,3 @@
 import "./styles.css";
 import {generateHomeContent} from "./home.js"
-
-generateHomeContent()
+import { generateMenuContent } from "./menu.js";
