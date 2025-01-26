@@ -2,6 +2,7 @@ import bakeryImagePath from "./assets/bakery.png"
 
 const generateHomeContent = (function(){
     const content = document.createElement("div");
+    content.id = "content";
     content.style.display = "flex";
     content.style.flexDirection = "column";
     content.style.alignItems = "center"

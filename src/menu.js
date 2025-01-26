@@ -2,6 +2,7 @@ import croissantImagePath from "./assets/croissant.png";
 
 const generateMenuContent = (function(){
     const content = document.createElement("div");
+    content.id = "content";
     content.style.display = "flex";
     content.style.justifyContent = "center";
 

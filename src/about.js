@@ -3,7 +3,7 @@ const generateAboutContent = (function(){
 
     //create div#content container
     const content = document.createElement("div");
-
+    content.id = "content";
     const container = document.createElement("div");
     container.style.display = "grid";
     container.style.justifyContent = "center";
