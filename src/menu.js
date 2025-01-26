@@ -1,8 +1,3 @@
-//use grid to display menu items
-//img||item||price
-//img||item||price
-//img||item||price
-
 import croissantImagePath from "./assets/croissant.png";
 
 const generateMenuContent = (function(){
